@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Loading</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: middle;
+            outline: none;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            word-wrap:break-word;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+            font-size: 20px;
+            color: #121212;
+
+        }
+
+        .wrapper {
+           
+            height: 100vh;
+            background-color: #fff;
+            text-align: center;
+        }
+        .gradient{
+
+            background: -webkit-linear-gradient(-45deg, #035caa,#81bc46); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(-45deg, #035caa,#81bc46); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(-45deg,#035caa,#81bc46); /* Firefox 3.6 - 15 */
+            background: linear-gradient(-45deg, #035caa,#81bc46); /* 标准的语法 */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81bc46', endColorstr='#81bc46', GradientType=0.5);
+            height: 40vh;
+            position: relative;
+        }
+       .gradient img{
+           width:100%;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+       }
+       h1{
+           font-size: 1em;
+           color:#121212;
+           margin: 0.8em 0.8em 0.6em;
+           font-weight: 600;
+       }
+       p{
+           color:#666;
+           font-size:0.4em;
+       }
+       .progress-bar{
+           position:absolute;
+           top:5%;
+           left:50%;
+           margin-left: -55px;
+           color:#fff;
+
+       }
+       .progress-bar .value{
+           width:110px;
+           height: 110px;
+           background: url(images/bg_progress.png) no-repeat 0 0;
+           background-size: contain;
+           display: table-cell;
+           vertical-align: middle;
+           color:#ff5105;
+           font-size: 25px;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       }
+       .progress-bar .value small{
+           font-size:25px;
+       }
+       .progress-bar .statu{
+           font-size:20px;
+           line-height: 200%;
+       }
+    </style>
+    <script type="text/javascript">
+
+       
+
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="gradient">
+            <img src="images/bg_dots.png"/>
+        </div>
+        <div class="content">
+
+
+
+        </div>
+
+
+        <div class="progress-bar">
+            <div class="value">100<small>%</small></div>
+            <div class="statu">Vacant 空闲</div>
+        </div>
+        <h1>北京园区一号楼员工餐厅</h1>
+        <p>Beijing Campus T1 3F Cafeteria</p>
+
+
+    </div>
+</body>
+</html>
